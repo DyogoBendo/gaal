@@ -7,9 +7,9 @@
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
-      "externalConsole": true,
-      "cwd": "c:/Users/Dyogo/ti/gaal",
-      "program": "c:/Users/Dyogo/ti/gaal/build/Debug/outDebug",
+      "externalConsole": false,
+      "cwd": "/home/dyogo/ti/gaal",
+      "program": "/home/dyogo/ti/gaal/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

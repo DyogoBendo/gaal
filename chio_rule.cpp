@@ -26,12 +26,12 @@ int main(){
     {
         for (int j = 0; j < n; j++)
         {
-            if(matrix[i][j] == 0){
+            if(matrix[i][j] == 1){
                 line = i;
                 column = j;
             }
             break;
-        }
+        }        
 
         if(line != -1) break;
         
@@ -61,17 +61,13 @@ int main(){
         
     }
 
-
-    
-    
-
     cout << "resultado: " << endl;
 
     for (int i = 0; i < n - 1; i++)
     {
         for (int j = 0; j < n - 1; j++)
         {
-            cout << resulting_matrix[i][j] << " ";
+            cout << mult * resulting_matrix[i][j] << " ";
         }
         cout << endl;
     }
